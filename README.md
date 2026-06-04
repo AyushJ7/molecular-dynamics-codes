@@ -51,3 +51,17 @@ The diffusion coefficient can be estimated from the slope of the mean squared di
 
 Conclusion:
 Through this project, I tried to implement the mid-step implicit leapfrog algorithm using quaternions to model the behavior of rigid CO₂ molecules. This project taught me the complexities of simulating polyatomic gases, even simple ones like CO₂. It increased my understanding of implementing and evaluating integration algorithms to solve the equation of motion during MD simulation. This experience will help to understand and modify built-in commands like “fix rigid” in software like LAMMPS to tailor it to my usage. I understood how critical factors such as timestep size, system size, thermostat settings, and even small adjustments like quaternion scaling can significantly impact the accuracy and behavior of the simulation. The program needs a lot of improvement.
+
+
+## References
+[1] J.J. Potoff, and J.I. Siepmann, Vapor-liquid equilibria of mixtures containing alkanes, carbon dioxide and nitrogen, AIChE J. 47, 1676-1682 (2001).
+
+[2] B.L. Eggimann, Y.Z.S. Sun, R.F. DeJaco, R. Singh, M. Ahsan, T.R. Josephson, and J.I. Siepmann, Assessing the quality of molecular simulations for vapor-liquid equilibria: An analysis of the TraPPE database, J. Chem. Eng. Data 65, 1330-1344 (2020).
+
+[3] SVANBERG, B. M. RESEARCH NOTE An improved leap-frog rotational algorithm, Molecular Physics, 92(6), 1085–1088 (1997).
+
+[4] Igor P. Omelyan; On the numerical integration of motion for rigid polyatomics: The modified quaternion approach. Comput. Phys. 1 January 1998; 12 (1): 97–103.
+
+[5] Davidchack, Ruslan L et al. “Langevin thermostat for rigid body dynamics.” The Journal of chemical physics vol. 130, 23 (2009): 234101.
+
+[6] Allen, M. P., & Tildesley, D. J. (2017). Computer simulation of liquids (2nd ed.). Oxford University Press.
